@@ -1,0 +1,26 @@
+h1{
+    font-size: 25px;
+    text-transform: capitalize;
+    width: 300px;
+    border-bottom: 10px solid palevioletred;
+    border-right: 10px solid palevioletred;
+    text-align: center;
+    font-family: cursive;
+}
+container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+footer{
+    text-align: center;
+}
